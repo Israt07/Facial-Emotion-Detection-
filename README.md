@@ -27,7 +27,7 @@ In order to computer modeling of human's emotion, a plenty of research has been 
 
 ![Coding]![crm-emotion_recognition_mobile](https://user-images.githubusercontent.com/82527970/114949775-84b7d580-9e73-11eb-953f-9a4aa2e7128d.png)
 
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+Figure 1 shows the AI output of detecting facial emotion.
 
 
 ## C.  DATASET
