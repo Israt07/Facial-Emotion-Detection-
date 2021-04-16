@@ -166,18 +166,16 @@ In Figure 5, you can see that our face mask detector is capable of running in re
 
 ## G.   PROJECT PRESENTATION 
 
-In this project, you learned how to create a COVID-19 face mask detector using OpenCV, Keras/TensorFlow, and Deep Learning.
+In this project, you learned how to create a facial emotion detector using OpenCV, Keras/TensorFlow, and Deep Learning.
 
-To create our face mask detector, we trained a two-class model of people wearing masks and people not wearing masks.
+We fine-tuned MobileNetV2 on our facial emotion dataset and obtained a classifier that is ~99% accurate.
 
-We fine-tuned MobileNetV2 on our mask/no mask dataset and obtained a classifier that is ~99% accurate.
+We then took this facial emotion classifier and applied it to both images and real-time video streams by:
 
-We then took this face mask classifier and applied it to both images and real-time video streams by:
+- Detecting emotions in images/video
+- Extracting each individual emotion
+- Applying our facial emotion classifier
 
-- Detecting faces in images/video
-- Extracting each individual face
-- Applying our face mask classifier
-
-Our face mask detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
+Our facial emotion detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 
 [![demo](https://img.youtube.com/vi/AP9e4ny_KHc/0.jpg)](https://www.youtube.com/watch?v=AP9e4ny_KHc "demo")
