@@ -35,10 +35,10 @@ Figure 1 shows the AI output of detecting facial emotions.
 Image processing is the field of signal processing where both the input and output signals are images.  One  of  the  most  important  application  of  Image  processing  is  Facial  expression recognition. Our emotion is revealed by the expressions in our face. Facial Expressions plays an important role in interpersonal communication. Facial expression is a non verbal scientific gesture which gets expressed in our face as per our emotions. Automatic recognition of facial expression plays an important role in artificial intelligence and robotics and thus it is a need of the generation. Some application related to this include Personal identification and Access control,   Videophone   and      Teleconferencing,      Forensic   application,   Human-Computer Interaction,  Automated Surveillance, Cosmetology and so on. The objective of this project is to develop Automatic Facial Expression Recognition System which can take human facial images containing some expression as input and recognize and classify it into seven different expression class such as :
 
 I.Neutral   II.Angry  III.Disgust  IV.FearV.Happy   VI.Sadness  VII.Surprise
-There is two-phase COVID-19 face mask detector as shown in Figure 2:
+
 
 ![1-Figure1-1](https://user-images.githubusercontent.com/82527970/114954433-64d8df80-9e7c-11eb-83f6-59358eb26db8.png)
-Figure 2: Phases and individual steps for building a COVID-19 face mask detector with computer vision and deep learning 
+
 
 In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps (as shown by Figure 1 above):
 
