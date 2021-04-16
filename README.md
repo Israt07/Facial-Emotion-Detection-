@@ -36,7 +36,7 @@ Figure 1 shows the AI output of detecting facial emotions.
 I.Neutral   II.Angry  III.Disgust  IV.FearV.Happy   VI.Sadness  VII.Surprise
 
 
-![1-Figure1-1](https://user-images.githubusercontent.com/82527970/114954433-64d8df80-9e7c-11eb-83f6-59358eb26db8.png)
+![1-Figure2-2](https://user-images.githubusercontent.com/82527970/114954433-64d8df80-9e7c-11eb-83f6-59358eb26db8.png)
 
 ## MOTIVATION :
 Significant  debate  has  risen  in  past  regarding  the  emotions  portrayed  in  the  world famous masterpiece of Mona Lisa. British Weekly „New Scientist‟ has stated that she is in fact a blend of many different emotions, 83%happy, 9% disgusted, 6% fearful, 2% angry.
