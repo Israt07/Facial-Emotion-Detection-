@@ -42,6 +42,8 @@ I.Neutral   II.Angry  III.Disgust  IV.FearV.Happy   VI.Sadness  VII.Surprise
 ## MOTIVATION :
 Significant  debate  has  risen  in  past  regarding  the  emotions  portrayed  in  the  world famous masterpiece of Mona Lisa. British Weekly „New Scientist‟ has stated that she is in fact a blend of many different emotions, 83%happy, 9% disgusted, 6% fearful, 2% angry.
 
+![Mona_Lisa_(copy,_Hermitage)](https://user-images.githubusercontent.com/82527970/114955291-2d6b3280-9e7e-11eb-9ccc-265f0bd5489d.jpg)
+
 Several Projects have already been done in this fields and our goal will not only be to develop an Automatic Facial Expression Recognition System but also improving the accuracy of this system compared to the other available systems.
 
 ![Figure 3](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_dataset.jpg)
