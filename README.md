@@ -1,4 +1,4 @@
-2. MOTIVATION :Significant  debate  has  risen  in  past  regarding  the  emotions  portrayed  in  the  world famous masterpiece of Mona Lisa. British Weekly „New Scientist‟ has stated that she is in fact a blend of many different emotions, 83%happy, 9% disgusted, 6% fearful, 2% angry.# FACIAL EMOTION DETECTION USING DEEP LEARNING 
+# FACE MASK DETECTION USING DEEP LEARNING
 
 ## A. PROJECT SUMMARY
 
