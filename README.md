@@ -158,9 +158,9 @@ You can then launch the facial emotion detector in real-time video streams using
 
 [![Figure5](https://img.youtube.com/vi/uDRYr0CWSwI/0.jpg)](https://www.youtube.com/watch?v=uDRYr0CWSwI "Figure5")
 
-Figure 5: Mask detector in real-time video streams
+Figure 5: Facial emotion detector in real-time video streams
 
-In Figure 5, you can see that our face mask detector is capable of running in real-time (and is correct in its predictions as well.
+In Figure 5, you can see that our Facial emotion detector is capable of running in real-time (and is correct in its predictions as well.
 
 
 
