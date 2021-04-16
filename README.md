@@ -24,13 +24,7 @@ Human emotions are mental states of feelings that arise spontaneously rather tha
 
 In order to computer modeling of human's emotion, a plenty of research has been accomplished. But still it is far behind from human vision system. In this paper, we are providing better approach to predict human emotions (Frames by Frames) using deep  and how emotion intensity changes on a face from low level to high level of emotion. The assessment through the proposed experiment confers quite good result and obtained accuracy may give encouragement to the researchers for future model of computer based emotion recognition system.
 
-I.Neutral
-II.Angry
-III.Disgust
-IV.Fear
-V.Happy
-VI.Sadness
-VII.Surprise
+I.Neutral,II.Angry,III.Disgust,IV.Fear,V.Happy,VI.Sadness,VII.Surprise
 
 ![Coding]![crm-emotion_recognition_mobile](https://user-images.githubusercontent.com/82527970/114949775-84b7d580-9e73-11eb-953f-9a4aa2e7128d.png)
 
