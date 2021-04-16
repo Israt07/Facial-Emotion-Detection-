@@ -37,7 +37,7 @@ Image processing is the field of signal processing where both the input and outp
 I.Neutral   II.Angry  III.Disgust  IV.FearV.Happy   VI.Sadness  VII.Surprise
 There is two-phase COVID-19 face mask detector as shown in Figure 2:
 
-![Figure 2]![crm-emotion_recognition_mobile](https://user-images.githubusercontent.com/82527970/114949775-84b7d580-9e73-11eb-953f-9a4aa2e7128d.png)
+![1-Figure1-1](https://user-images.githubusercontent.com/82527970/114954433-64d8df80-9e7c-11eb-83f6-59358eb26db8.png)
 Figure 2: Phases and individual steps for building a COVID-19 face mask detector with computer vision and deep learning 
 
 In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps (as shown by Figure 1 above):
