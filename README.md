@@ -54,6 +54,8 @@ Problem formulation of our project:
 
 ![Screenshot (228)](https://user-images.githubusercontent.com/82527970/114956192-3230e600-9e80-11eb-89bd-0f2afb570636.png)
 
+Facial  expression  recognition  is  a  process  performed  by  humans  or  computers, which consists of:1.Locating  faces  in  the  scene  (e.g.,  in  an  image;  this  step  is  also  referred  to  as facedetection),2.Extracting  facial  features  from  the  detected  face  region  (e.g.,  detecting  the  shape of facialcomponents or describing the texture of the skin in a facial area; this step is referred to asfacial feature extraction),3.Analyzing  the  motion  of  facial  features  and/or  the  changes  in  the  appearance  of facialfeatures   and   classifying   this   information   into   some   facial-expression-interpretativecategoriessuch  as  facial  muscle  activations  like  smile  or  frown, emotion   (affect)categories   like   happiness   or   anger,   attitude   categories   like (dis)liking  or  ambivalence,  etc.(this  step  is  also  referred  to  as  facial  expression interpretation).Several Projects have already been done in this fields and our goal will not only be to develop a Automatic Facial Expression Recognition System but also improving the accuracy of this system compared to the other available systems
+
 
 ## D.   PROJECT STRUCTURE
 
