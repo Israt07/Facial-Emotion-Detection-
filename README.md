@@ -54,7 +54,10 @@ Problem formulation of our project:
 
 ![Screenshot (228)](https://user-images.githubusercontent.com/82527970/114956192-3230e600-9e80-11eb-89bd-0f2afb570636.png)
 
-Facial  expression  recognition  is  a  process  performed  by  humans  or  computers, which consists of:1.Locating  faces  in  the  scene  (e.g.,  in  an  image;  this  step  is  also  referred  to  as facedetection),2.Extracting  facial  features  from  the  detected  face  region  (e.g.,  detecting  the  shape of facialcomponents or describing the texture of the skin in a facial area; this step is referred to asfacial feature extraction),3.Analyzing  the  motion  of  facial  features  and/or  the  changes  in  the  appearance  of facialfeatures   and   classifying   this   information   into   some   facial-expression-interpretativecategoriessuch  as  facial  muscle  activations  like  smile  or  frown, emotion   (affect)categories   like   happiness   or   anger,   attitude   categories   like (dis)liking  or  ambivalence,  etc.(this  step  is  also  referred  to  as  facial  expression interpretation).Several Projects have already been done in this fields and our goal will not only be to develop a Automatic Facial Expression Recognition System but also improving the accuracy of this system compared to the other available systems
+Facial  expression  recognition  is  a  process  performed  by  humans  or  computers, which consists of:
+1.Locating  faces  in  the  scene  (e.g.,  in  an  image;  this  step  is  also  referred  to  as facedetection),
+2.Extracting  facial  features  from  the  detected  face  region  (e.g.,  detecting  the  shape of facialcomponents or describing the texture of the skin in a facial area; this step is referred to asfacial feature extraction),
+3.Analyzing  the  motion  of  facial  features  and/or  the  changes  in  the  appearance  of facialfeatures   and   classifying   this   information   into   some   facial-expression-interpretativecategoriessuch  as  facial  muscle  activations  like  smile  or  frown, emotion   (affect)categories   like   happiness   or   anger,   attitude   categories   like (dis)liking  or  ambivalence,  etc.(this  step  is  also  referred  to  as  facial  expression interpretation).Several Projects have already been done in this fields and our goal will not only be to develop a Automatic Facial Expression Recognition System but also improving the accuracy of this system compared to the other available systems
 
 
 ## D.   PROJECT STRUCTURE
@@ -63,44 +66,38 @@ The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
 - .
 - ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
+- │   ├── [690 entries]
+- │   └── [686 entries]
 - ├── examples
 - │   ├── example_01.png
 - │   ├── example_02.png
 - │   └── example_03.png
-- ├── face_detector
+- ├── facial_emotion_detector
 - │   ├── deploy.prototxt
 - │   └── res10_300x300_ssd_iter_140000.caffemodel
-- ├── detect_mask_image.py
-- ├── detect_mask_video.py
-- ├── mask_detector.model
+- ├── detect_facial_emotion_image.py
+- ├── detect_facial_emotion_video.py
+- ├── facial_emotion_detector.model
 - ├── plot.png
-- └── train_mask_detector.py
+- └── train_facial_emotion_detector.py
 - 5 directories, 10 files
 
 
-The dataset/ directory contains the data described in the “Our COVID-19 face mask detection dataset” section.
-
-Three image examples/ are provided so that you can test the static image face mask detector.
-
-We’ll be reviewing three Python scripts in this tutorial:
-
-- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
-- detect_mask_image.py: Performs face mask detection in static images
-- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
-
-In the next two sections, we will train our face mask detector.
+The dataset/ directory contains the data described in the “Facial emotion detection dataset” section.
 
 
 
-## E   TRAINING THE COVID-19 FACE MASK DETECTION
+In the next two sections, we will train our facial emotion detector.
 
-We are now ready to train our face mask detector using Keras, TensorFlow, and Deep Learning.
+
+
+## E   TRAINING  FACIAL EMOTION DETECTION
+
+We are now ready to train our facial emotion detector using Keras, TensorFlow, and Deep Learning.
 
 From there, open up a terminal, and execute the following command:
 
-- $ python train_mask_detector.py --dataset dataset
+- $ python train_facial_emotion_detector.py --dataset dataset
 - [INFO] loading images...
 - [INFO] compiling model...
 - [INFO] training head...
@@ -130,7 +127,8 @@ From there, open up a terminal, and execute the following command:
 
 |      |    precision    | recall| f1-score | support |
 |------|-----------------|-------|----------|---------|
-|with_mask|0.99|1.00|0.99|138|
+|with_ha|0.99|1.00|0.99|138|
+
 |without_mask|1.00|0.99|0.99|138|
 |accuracy| | |0.99|276|
 |macro avg|0.99|0.99|0.99|276|
@@ -139,7 +137,7 @@ From there, open up a terminal, and execute the following command:
 
 ![Figure 4](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detector_plot.png)
 
-Figure 4: Figure 10: COVID-19 face mask detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
+Figure 4: Figure 10: Facial emotion detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
 As you can see, we are obtaining ~99% accuracy on our test set.
 
@@ -150,12 +148,12 @@ Given these results, we are hopeful that our model will generalize well to image
 
 ## F.  RESULT AND CONCLUSION
 
-Detecting COVID-19 face masks with OpenCV in real-time
+Detecting Facial emotion detection with OpenCV in real-time
 
-You can then launch the mask detector in real-time video streams using the following command:
-- $ python detect_mask_video.py
+You can then launch the facial emotion detector in real-time video streams using the following command:
+- $ python detect_facial_emotion_video.py
 - [INFO] loading face detector model...
-- INFO] loading face mask detector model...
+- INFO] loading facial emotion detector model...
 - [INFO] starting video stream...
 
 [![Figure5](https://img.youtube.com/vi/wYwW7gAYyxw/0.jpg)](https://www.youtube.com/watch?v=wYwW7gAYyxw "Figure5")
