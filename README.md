@@ -130,7 +130,7 @@ From there, open up a terminal, and execute the following command:
 
 
 
-![Figure 4](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detector_plot.png)
+![Figure 4]![images](https://user-images.githubusercontent.com/82527970/114965889-5518c580-9e93-11eb-90b0-4052063c694c.jpg)
 
 Figure 4: Figure 10: Facial emotion detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
