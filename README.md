@@ -44,7 +44,7 @@ Significant  debate  has  risen  in  past  regarding  the  emotions  portrayed  
 
 ![Mona_Lisa_(copy,_Hermitage)](https://user-images.githubusercontent.com/82527970/114955291-2d6b3280-9e7e-11eb-9ccc-265f0bd5489d.jpg)
 
-Several Projects have already been done in this fields and our goal will not only be to develop an Automatic Facial Expression Recognition System but also improving the accuracy of this system compared to the other available systems.
+We  have  also  been  motivated  observing  the  benefits  of  physically  handicapped people like deaf and dumb. But if any normal human being or an automated system can understand their needs by observing their facial expression then it becomes a lot easier  for  them  to  make  the  fellow  human  or  automated  system  understand  their needs.
 
 ![Figure 3](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_dataset.jpg)
 
