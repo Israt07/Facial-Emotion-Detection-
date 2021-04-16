@@ -123,12 +123,12 @@ From there, open up a terminal, and execute the following command:
 - 34/34 [==============================] - 27s 793ms/step - loss: 0.0836 - accuracy: 0.9710 - val_loss: 0.0440 - val_accuracy: 0.9883
 - Epoch 20/20
 - 34/34 [==============================] - 28s 838ms/step - loss: 0.0717 - accuracy: 0.9710 - val_loss: 0.0270 - val_accuracy: 0.9922
+
 - [INFO] evaluating network...
 
 |      |    precision    | recall| f1-score | support |
 |------|-----------------|-------|----------|---------|
-|with_ha|0.99|1.00|0.99|138|
-
+|with_mask|0.99|1.00|0.99|138|
 |without_mask|1.00|0.99|0.99|138|
 |accuracy| | |0.99|276|
 |macro avg|0.99|0.99|0.99|276|
