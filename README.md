@@ -46,7 +46,7 @@ Significant  debate  has  risen  in  past  regarding  the  emotions  portrayed  
 
 We  have  also  been  motivated  observing  the  benefits  of  physically  handicapped people like deaf and dumb. But if any normal human being or an automated system can understand their needs by observing their facial expression then it becomes a lot easier  for  them  to  make  the  fellow  human  or  automated  system  understand  their needs.
 
-![Figure 3](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_dataset.jpg)
+![deaf__blind__dumb_by_biaayla-d5d2upj1](https://user-images.githubusercontent.com/82527970/114955624-e893cb80-9e7e-11eb-8f40-93646a43e43b.jpg)
 
 Figure 3: A face mask detection dataset consists of “with mask” and “without mask” images. 
 
