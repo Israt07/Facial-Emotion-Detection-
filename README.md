@@ -48,24 +48,8 @@ We  have  also  been  motivated  observing  the  benefits  of  physically  handi
 
 ![deaf__blind__dumb_by_biaayla-d5d2upj1](https://user-images.githubusercontent.com/82527970/114955624-e893cb80-9e7e-11eb-8f40-93646a43e43b.jpg)
 
-Figure 3: A face mask detection dataset consists of “with mask” and “without mask” images. 
+3.PROBLEM DEFINITION :Human facial expressions can be easily classified into 7 basic emotions: happy, sad, surprise, fear, anger, disgust, and neutral. Our facial emotions are expressed through activation  of  specific  sets  of  facial  muscles.  These  sometimes  subtle,  yet  complex, signals in an expression often contain an abundant amount of information about our state of mind. Through facial emotion recognition, we are able to measure the effects that  content  and  services  have  on  the  audience/users  through  an  easy  and  low-cost procedure.   For   example,   retailers   may   use   these   metrics   to   evaluatecustomer interest.   Healthcare   providers   can   provide   better   service   by   using   additional information    aboutpatients'    emotional    stateduring    treatment.    Entertainment producers  can  monitoraudience  engagementin  events  to  consistently  create  desired content.Humans are well-trained in reading the emotions of others, in fact, at just 14 months old,   babies   can   already   tell   the   difference   between   happy   and   sad.But   can computers  do  a  better  job  than  us  in  accessing  emotional  states?To  answer  the question, Wedesigned a deep learning neural network that gives machines the ability to make inferences about our emotional states. In other words, wegive them eyes to see what we can see.Problem formulation of our project:
 
-The dataset we’ll be using here today was created by PyImageSearch reader Prajna Bhandary.
-
-This dataset consists of 1,376 images belonging to two classes:
-
-- with_mask: 690 images
-- without_mask: 686 images
-
-Our goal is to train a custom deep learning model to detect whether a person is or is not wearing a mask.
-
-How was our face mask dataset created?
-Prajna, like me, has been feeling down and depressed about the state of the world — thousands of people are dying each day, and for many of us, there is very little (if anything) we can do.
-
-To help keep her spirits up, Prajna decided to distract herself by applying computer vision and deep learning to solve a real-world problem:
-
-- Best case scenario — she could use her project to help others
-- Worst case scenario — it gave her a much needed mental escape
 
 
 ## D.   PROJECT STRUCTURE
